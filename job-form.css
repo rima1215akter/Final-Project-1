@@ -1,0 +1,173 @@
+#jobs h2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+.jdfx {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 30px;
+}
+.jdfx .col-md-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.jdfx .ptjwrap {
+    display: flex;
+    justify-content: center;
+    /* flex-flow: row wrap; */
+}
+.jdfx h2 {
+    color: #2b882f;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+.jdfx  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.jdfx .vac  h4 {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.jdfx p {
+    margin: 0;
+    padding: 0 0 0 20px;
+    line-height: 24px;
+    color: #5c5c5c;
+}
+.col-md-4 .panel-default .panel-heading{
+    margin-top: 20px;
+}
+.jdfx .job_des h4 {
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.jdfx .job_nat h4 {
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.jdfx .job_req h4 {
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.jdfx .edu_req h4 {
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.jdfx .job_loc h4 {
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.jdfx .salary_range h4 {
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.jdfx .oth_ben h4 {
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.jdfx .job_source  h4 {
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.jdfx .company-info .information {
+    padding: 0;
+    margin: 0 150px 0 0;
+    padding-bottom: 20px;
+    float: left;
+}
+.jdfx .company-info .information h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 6px 0;
+    padding-left: 30px;
+    color: #2b882f;
+}
+.jdfx .company-info span {
+    display: block;
+    color: #5c5c5c;
+    padding-left: 30px;
+}
+.jdfx .m-view {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.jdfx .right {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.right {
+    float: right;
+    background-color: #eeeeee;
+}
+
+.jdfx .right .panel {
+    border: none;
+}
+
+.jdfx .right .panel-default {
+
+    box-shadow: none;
+    margin-bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.jdfx .right .panel-heading {
+    background-color: #37474f;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+}
+.jdfx .right .panel-body {
+    border: 1px solid #DDDDDD;
+}
+
+.jdfx .right .panel-body {
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+
+.jdfx  .right h4 {
+    font-size: 13px;
+    color: #5c5c5c;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    padding: 0px;
+    line-height: 1.5;
+}
+.jdfx .hps-wrap {
+    padding: 8px 15px;
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    clear: both;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    display: flex;
+    align-items: flex-start;
+    color: #595959;
+}

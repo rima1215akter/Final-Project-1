@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search jobs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jobs.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- fontswesome -->
+    <script src="https://kit.fontawesome.com/20bc6c66fe.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #dffadf;">
+     <!-- start topbar -->
+    <div class="topbar d-sm-block hidden-md hidden-sm hidden-xs">
+        <nav class="navbar navbar-dark  navbar-expand-lg pb-0" style="background-color: rgb(70, 125, 147);">
+            <div class="container"> 
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="jobs.html">Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="My-jobsearch.html">My Jobsearch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="Employers.html">Employers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="social-links text-center">
+                            <a href="https://www.facebook.com" class="facebook"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://twitter.com" class="twitter"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.youtube.com " class="youtube"><i class="fab fa-youtube-square"></i></a>
+                            <a href="https://www.instagram.com " class="instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com " class="Linkedin"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </nav>
+    </div>
+    <!--end topbar --> 
+
+    <header>
+        <nav class="navbar  navbar-expand-lg navbar-light bg-white shadow-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <img src="img/Image/logo1.png"  alt=""  class="img-fluid ">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse gx-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-items ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link active">Sign in or Create Account</a>
+                                <div class="dropdown-content">
+                                <div class="employe">
+                                    <div class="cart-emp-e">
+                                        <h6 class="t-txt">My Jobsearch</h6>
+                                        <p class="des-txt">Sign in or create your My Jobsearch account to manage your profile</p>
+                                        <div class="btn-wraper">
+                                            <a href="My-jobsearch.html" class="btn slu-btn">Sign in</a>
+                                            <a href="create-account.html" class="ca-btn slu-btn">Create Account</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="employers">
+                                    <div class="cart-emp-r">  
+                                        <h6 class="t-txt">Employers</h6>
+                                        <p class="des-txt">Sign in or create account to find the best candidates in the fastest way</p>
+                                        <div class="btn-wraper">  
+                                            <a  href="Employers.html" class="btn slu-btn">Sign in</a>
+                                            <a  href="Create-Employer-account.html" class="ca-btn slu-btn">Create Account</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html"><i class="fa fa-phone me-1"></i>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container mt-3 mb-3" style="background-color: #b28efb;" id="jobs">
+        <h2>Jobs</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 p-5">
+            <div class="col">
+                <div class="card border-0 shadow-lg overflow-auto" style="height:150px; width: 80%;">
+                    <div class="col-sm-12 col-md-6 featured-job hovered">                                
+                        <div class="row featured-wrap" onclick="DivOpen('id=1083040&amp;ln=1');" style="height: auto;">
+                            <div class="col-sm-12 featured">
+                             <!-- <img src="/images/badge.svg" alt="featured jobs iconic">  -->
+                             Featured
+                            </div>
+                            <div class="col-sm-8 details">
+                            <div class="title">
+                                <a style="text-decoration: none;" onclick="clickJObTitle()" target="_blank" href="job-form1.html">
+                                    Sr. Executive - Packages
+                                </a>
+                            </div>
+                            <div class="company">
+                                S S HOLIDAYS
+                            </div>                                                                    
+                            </div>
+                            <!-- <div class="col-sm-4 logo">
+                                <img class="img-responsive" style="height: 60px; width: 170%;" src="//corporate.bdjobs.com/logos/105329_0.jpg" alt="logo of S S HOLIDAYS">
+                            </div>  -->
+                            <div class="col-sm-12 details">                                                                    
+                                <div class="requires">
+                                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Dhaka</p>
+                                    <div class="education">
+                                        <!-- <i class="fa-thin fa-user-graduate"></i> -->
+                                        <i class="fa-sharp fa-solid fa-user-graduate"></i>
+                                        <ul><li>Bachelor degree in any discipline</li></ul>
+                                    </div>
+                                    <p> <i class="fa-sharp fa-solid fa-briefcase"></i> 1 to 2 year(s)</p>
+                                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i><strong>30 Sep</strong> 2022</p>
+                                </div>
+                            </div>                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow-lg overflow-auto" style="height:150px; width: 80%;">
+                    <div class="col-sm-12 col-md-6 featured-job">                                
+                        <div class="row featured-wrap" onclick="DivOpen('id=1082788&amp;ln=2');" style="height: auto;">
+                            <div class="col-sm-12 featured">
+                             Featured
+                            </div>
+                            <div class="col-sm-8 details">
+                            <div class="title">
+                                <a style="text-decoration: none;" onclick="clickJObTitle()" target="_blank" href="job-form2.html">
+                                    Front End Developer
+                                </a>
+                            </div>
+                            <div class="company">
+                                Sharp Code It
+                            </div>                                                                    
+                            </div>
+                            <!-- <div class="col-sm-4 logo">
+                                <img class="img-responsive" src="//corporate.bdjobs.com/logos/105369_0.jpg" alt="logo of G.M. Food And Beverage Ltd.">
+                            </div> -->
+                            <div class="col-sm-12 details">                                                                    
+                                <div class="requires hide">
+                                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>Dhaka (Paltan)</p>
+                                    <div class="education">
+                                        <i class="fa-sharp fa-solid fa-user-graduate"></i>
+                                        <ul>
+                                            <li>There is no required educational background.</li>
+                                            <li>As we believe that educational institution cannot ...</li>
+                                        </ul>
+                                    </div>
+                                    <p><i class="fa-sharp fa-solid fa-briefcase"></i>1 to 2 year(s)</p>
+                                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i><strong>12 oct</strong> 2022</p>
+                                </div>
+                            </div>                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow-lg overflow-auto" style="height:150px; width: 80%;">
+                    <div class="col-sm-12 col-md-6 featured-job">                                
+                        <div class="row featured-wrap" onclick="DivOpen('id=1082863&amp;ln=1');" style="height: auto;">
+                            <div class="col-sm-12 featured">
+                             Featured
+                            </div>
+                            <div class="col-sm-8 details">
+                            <div class="title">
+                                <a style="text-decoration: none;" onclick="clickJObTitle()" target="_blank" href="#">
+                                    PHP Programmer
+                                </a>
+                            </div>
+                            <div class="company">
+                                Omar Kindergarten School
+                            </div>                                                                    
+                            </div>
+                            <!-- <div class="col-sm-4 logo">
+                                <img class="img-responsive" src="//corporate.bdjobs.com/logos/43850_0.jpg" alt="logo of Omar Kindergarten School">
+                            </div>  -->
+                            <div class="col-sm-12 details">                                                                    
+                                <div class="requires hide">
+                                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>Joypurhat</p>
+                                    <div class="education">
+                                        <i class="fa-sharp fa-solid fa-user-graduate"></i>
+                                        <ul><li>Diploma in Computer in CSE</li><li>Bachelor of Science (BSc) in CSE</li></ul>
+                                    </div>
+                                    <p><i class="fa-sharp fa-solid fa-briefcase"></i>1 to 5 year(s)</p>
+                                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i><strong>10 Oct</strong> 2022 </p>
+                                </div>
+                            </div>                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow-lg overflow-auto" style="height:150px; width: 80%;">
+                    <div class="col-sm-12 col-md-6 featured-job hovered">                                    
+                        <div class="row featured-wrap" onclick="DivOpen('id=1082853&amp;ln=1');" style="height: auto;">
+                            <div class="col-sm-12 featured">
+                             Featured
+                            </div>
+                            <div class="col-sm-8 details">
+                            <div class="title">
+                                <a style="text-decoration: none;" onclick="clickJObTitle()" target="_blank" href="#">
+                                    Project Lead
+                                </a>
+                            </div>
+                            <div class="company">
+                                Samsung R&amp;D Institute Bangladesh Ltd.
+                            </div>                                                                    
+                            </div>
+                            <!-- <div class="col-sm-4 logo">
+                                <img class="img-responsive" style="height: 40px; width: 140%;" src="//corporate.bdjobs.com/logos/31249_0.jpg" alt="logo of Samsung R&amp;D Institute Bangladesh Ltd.">
+                            </div> -->
+                            <div class="col-sm-12 details">                                                                    
+                                <div class="requires">
+                                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>Dhaka</p>
+                                    <div class="education">
+                                        <i class="fa-sharp fa-solid fa-user-graduate"></i>
+                                        <ul><li>B.Sc  in  Computer Science Engineering preferably from foreign top university</li></ul>
+                                    </div>
+                                    <p><i class="fa-sharp fa-solid fa-briefcase"></i>At least 10 year(s)</p>
+                                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i><strong>22 Sep</strong> 2022</p>
+                                </div>
+                            </div>                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="up_footer" style="background-color: #263238;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-3 f1">
+                    <h2 class="pb-3">About Us</h2>
+                    <a style="text-decoration: none; color: white;" href="#">About Jobsearch.com</a><br>
+                    <a style="text-decoration: none; color: white;" href="#">Terms & Conditions</a><br>
+                    <a style="text-decoration: none; color: white;" href="#">Privacy Policy</a><br>
+                    <a style="text-decoration: none; color: white;" href="#">Feedback</a><br>
+                    <a style="text-decoration: none; color: white;" href="contact.html">Contact Us</a><br>
+                    <a style="text-decoration: none; color: white;" href="#">Dhaka, Bangladesh</a>
+                </div>
+                <div class="col-md-3 col-sm-3 f1 f2">
+                    <h2 class="pb-3">Job Seekers</h2>
+                    <a style="text-decoration: none; color: white;" href="#">Create Account</a><br>
+                    <a style="text-decoration: none; color: white;" href="#">List of Features</a><br>
+                    <a style="text-decoration: none; color: white;" href="#">My Jobsearch Panel</a><br>
+                    <!-- <a style="text-decoration: none; color: white;" href="#">FAQ</a> -->
+                </div>
+                <div class="col-md-3 col-sm-3 f1 f2">
+                    <h2 class="pb-3">Employers</h2>
+                    <a style="text-decoration: none; color: white;" href="#">Create Account</a><br>
+                    <a style="text-decoration: none; color: white;" href="#">Products/Service</a><br>
+                    <a style="text-decoration: none; color: white;" href="#">Disability Inclusion</a><br>
+                    <a style="text-decoration: none; color: white;" href="#">Post a Job</a><br>
+                    <!-- <a style="text-decoration: none; color: white;" href="#">FAQ</a> -->
+                </div>
+                <div class="col-md-3 col-sm-3 f1 f2">
+                    <h2  class="pb-3">Tools & Social Media</h2>
+                    <a style="text-decoration: none; color: white;" href="#" class="icon_a" target="_blank"><i class="fab fa-facebook-square pl-3 icon" style="padding-right: 15px;" ></i>Facebook</a><br>
+                    <a style="text-decoration: none; color: white;" href="#"><i class="fab fa-twitter-square pl-2 icon" style="padding-right: 15px;"></i>Twitter</a><br>
+                    <a style="text-decoration: none; color: white;" href="#"><i class="fab fa-whatsapp-square pl-2 icon" style="padding-right: 15px;"></i>Whatsapp</a><br>
+                    <a style="text-decoration: none; color: white;" href="#"><i class="fab fa-linkedin pl-2 icon" style="padding-right: 15px;"></i>Linkedin</a><br>
+                    <a style="text-decoration: none; color: white;" href="#"><i class="fab fa-google-plus-g pl-2 icon" style="padding-right: 15px;"></i>Google</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="down_footer">
+        <div class="container">
+           <div class="col-md-12 col-sm-12">
+               <div class="f-contacts">
+                    <p style="text-decoration: none; color: white;"> Need any support ? Call to <span>01403040841, 01521419340</span> Our Contact Centre is
+                    available from 9 am to 5 pm (Saturday to Thursday).</p>
+               </div>
+           </div>
+        </div>
+          
+    </section>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

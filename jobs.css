@@ -1,0 +1,46 @@
+#jobs h2{
+   padding-left: 40px;
+   padding-top: 30px;
+}
+
+.featured-Job-wrapper .featured-job {
+    padding-left: 22px;
+    padding-right: 23px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.card .hovered{
+    padding: 30px;
+}    
+.card .featured-job{
+    width: 90%;
+    padding: 30px;
+}
+.featured-Job-wrapper .featured-job .featured-wrap {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+} 
+.card .featured-job .featured-wrap .featured {
+    font-size: 12px;
+    font-weight: bold;
+    color: #DB1D00;
+    margin-bottom: 10px;
+    line-height: 1.15;
+}
+.card .featured-job .featured-wrap .details .company{
+    font-weight: bold;
+    font-size: 15px;
+}
+/*.featured-Job-wrapper .featured-job .logo {
+    text-align: right;
+}
+
+  .logo {
+    float: left;
+}  */

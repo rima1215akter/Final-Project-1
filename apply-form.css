@@ -1,0 +1,18 @@
+/* .dn-link {
+    font-size: 15px;
+    color: #2f64a3;
+    line-height: 28px;
+}
+.map_size{
+    height: 300px;
+    width: 1200px; 
+}  */
+.personal-field {
+     display: flex;
+     justify-content: center;
+     background-color: #2f64a3;
+     color: white;
+}
+#frmCorporateInquiry{
+    margin-top: 20px;
+}
